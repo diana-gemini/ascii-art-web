@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascii art web</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <h1 id="head">Ascii art web</h1>
+    <div id="text">
+<form action="/ascii-art" method="post"> 
+    <br>
+    <label> Choose font:</label>
+        &emsp;
+        <select name="bannerName">
+            <option value="standard" selected>Standard </option>
+            <option value="shadow">Shadow</option>
+            <option value="thinkertoy">Thinkertoy</option>
+        </select>
+        &emsp;
+    <textarea name="inputText"></textarea>
+    &emsp;
+    <button type="submit">Send</button>
+    <br>
+    <br>
+
+</div>
+    <div id="output">
+        <div id="outputtext" > <pre>{{.OutputText}} </pre></div>
+    </div>
+    <br>
+    <br>
+    <div id="text">
+        <form>
+            <input type="button" value="History" onclick="history.back()">
+            &emsp;
+            <form action="http://localhost:8000">
+                <input type="submit" value="Main page"/>
+            </form>
+        </form>
+    </div>
+
+</form>
+</body>
+</html>
