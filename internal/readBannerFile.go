@@ -8,11 +8,12 @@ import (
 // read text file and write to []byte
 func ReadBannerFile(d *Ascii) error {
 	var err error
-	if d.BannerName == "standard" {
+	switch d.BannerName {
+	case "standard":
 		d.BannerFileName = "banner/standard.txt"
-	} else if d.BannerName == "shadow" {
+	case "shadow":
 		d.BannerFileName = "banner/shadow.txt"
-	} else if d.BannerName == "thinkertoy" {
+	case "thinkertoy":
 		d.BannerFileName = "banner/thinkertoy.txt"
 	}
 
