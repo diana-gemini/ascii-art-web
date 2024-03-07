@@ -6,8 +6,6 @@ Choose ```font```, write ```text```, then click ```Send``` or ```Test All``` but
 
 
 ## Usage
-Git clone ```git@git.01.alem.school:dtyuligu/ascii-art-web.git```
-<br>
 Go run ```main.go```
 <br>
 Go to ```http://localhost:8080```
