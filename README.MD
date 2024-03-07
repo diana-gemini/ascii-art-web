@@ -2,7 +2,7 @@
 
 ## Description
 This webpage accept text and allow the use one or all banners. <br> 
-Choose ```font```, write ```text```, then click ```Send``` or ```Test All``` button.
+Choose ```font```, write ```text```, then click ```Send``` button.
 
 
 ## Usage
